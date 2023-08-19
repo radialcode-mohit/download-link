@@ -13,21 +13,48 @@
         margin: 0;
         padding: 0;
 
+    }
 
+    body {
+        background-image: url('./assets/images/Phone/SET5/scr6.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .button_download {
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        border-radius: 15px;
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 600px;
+        margin: 0 auto;
     }
 </style>
 
 <body>
-    <div style="max-width: 600px;margin: 20px auto;">
-        <img src="./assets/images/FeatureGraphic1.png" class="w-100 rounded-2" alt="imgfeatured">
-        <img src="./assets/images/FeatureGraphic2.png" class="w-100 rounded-2 mt-2" alt="imgfeatured">
-        <img src="./assets/images/FeatureGraphic3.png" class="w-100 rounded-2 mt-2" alt="imgfeatured">
-        <img src="./assets/images/FeatureGraphic4.png" class="w-100 rounded-2 mt-2" alt="imgfeatured">
-        <img src="./assets/images/Phone/SET1/scr2.png" class="w-100 rounded-2 mt-2" alt="imgfeatured">
-        <img src="./assets/images/Phone/SET1/scr1.png" class="w-100 rounded-2 mt-2" alt="imgfeatured"><img
-            src="./assets/images/Phone/SET1/scr3.png" class="w-100 rounded-2 mt-2" alt="imgfeatured">
+    <div class="container">
+        <div style="max-width: 600px;margin: 20px auto;">
+            <img src="./assets/images/FeatureGraphic1.png" class="w-100 rounded-2" alt="imgfeatured">
+            <img src="./assets/images/FeatureGraphic2.png" class="w-100 rounded-2 mt-2" alt="imgfeatured">
+            <img src="./assets/images/FeatureGraphic3.png" class="w-100 rounded-2 mt-2" alt="imgfeatured">
+            <img src="./assets/images/FeatureGraphic4.png" class="w-100 rounded-2 mt-2" alt="imgfeatured">
+            <img src="./assets/images/Phone/SET1/scr2.png" class="w-100 rounded-2 mt-2" alt="imgfeatured">
+            <img src="./assets/images/Phone/SET1/scr1.png" class="w-100 rounded-2 mt-2" alt="imgfeatured"><img
+                src="./assets/images/Phone/SET1/scr3.png" class="w-100 rounded-2 mt-2" alt="imgfeatured">
+        </div>
+        <a id="downloadLink" class=" d-inline-block button_download" href="#"
+            download="./assets/apks/bollyquiz-stars.apk">Download
+            Files</a>
     </div>
-    <a id="downloadLink" class=" text-black" href="#" download="./assets/apks/bollyquiz-stars.apk">Download Files</a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
